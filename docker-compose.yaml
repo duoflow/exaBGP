@@ -1,0 +1,7 @@
+version: "3"
+services:
+  exabgpinst:
+    container_name: exabgpinst
+    build:
+        context: .
+        dockerfile: ./Dockerfile
